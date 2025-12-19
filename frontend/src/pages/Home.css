@@ -1,0 +1,105 @@
+.home-container {
+  margin-top: -40px; /* Counteracts main-content padding for full-width hero */
+}
+
+.home-hero {
+  height: 85vh;
+  background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), 
+              url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  border-radius: 0 0 40px 40px;
+}
+
+.hero-overlay h1 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-overlay h1 span {
+  color: #818cf8;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  opacity: 0.9;
+}
+
+.btn-main {
+  background: #4f46e5;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: transform 0.2s;
+}
+
+.btn-sub {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 15px 35px;
+  border-radius: 12px;
+  border: 1px solid white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-main:hover { transform: scale(1.05); background: #4338ca; }
+.btn-sub:hover { background: white; color: #0f172a; }
+
+/* Features */
+.home-features { padding: 80px 20px; text-align: center; }
+.section-title h2 { font-size: 2.5rem; margin-bottom: 10px; }
+.underline { width: 60px; height: 4px; background: #4f46e5; margin: 0 auto 40px; }
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.f-card {
+  padding: 40px;
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  transition: 0.3s;
+}
+
+.f-icon { font-size: 3rem; margin-bottom: 20px; }
+
+/* Comparison Card */
+.home-comparison { padding: 40px 20px; background: #f8fafc; }
+.comp-card {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #0f172a;
+  color: white;
+  padding: 30px;
+  border-radius: 24px;
+}
+
+.comp-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.price-tag.success { color: #10b981; font-weight: 800; }

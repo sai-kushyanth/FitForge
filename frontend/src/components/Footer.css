@@ -1,0 +1,97 @@
+.footer {
+  background-color: #0f172a; /* Deep Navy/Slate */
+  color: #f8fafc;
+  padding: 48px 20px 24px 20px;
+  margin-top: 60px;
+  border-top: 1px solid #1e293b;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-brand h3 {
+  font-size: 1.5rem;
+  margin: 0 0 16px 0;
+  color: #818cf8; /* Indigo Accent */
+}
+
+.footer-brand p {
+  color: #94a3b8;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  max-width: 300px;
+}
+
+.footer-heading {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.footer-links a:hover {
+  color: #818cf8;
+}
+
+.coach-value-card {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(129, 140, 248, 0.2);
+}
+
+.coach-value-card p {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  margin: 0;
+  font-style: italic;
+}
+
+.footer-bottom {
+  border-top: 1px solid #1e293b;
+  padding-top: 24px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.footer-bottom b {
+  color: #94a3b8;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    text-align: center;
+  }
+  .footer-brand p {
+    margin: 0 auto;
+  }
+}
